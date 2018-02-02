@@ -21,5 +21,6 @@ function currentLine(katzDeliLine) {
   for (var i = 0; i < katzDeliLine.length; i++) {
     announcement += (katzDeliLine[i] + ', ');
   }
+  announcement.
   return announcement;
 }
