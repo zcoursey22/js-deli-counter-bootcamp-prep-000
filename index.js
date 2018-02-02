@@ -14,3 +14,9 @@ function nowServing(katzDeliLine) {
     return `Currently serving ${personBeingServed}.`;
   }
 }
+
+function currentLine(katzDeliLine) {
+  if (katzDeliLine.length === 0) return 'The line is currently empty.';
+  var announcement = '';
+  
+}
